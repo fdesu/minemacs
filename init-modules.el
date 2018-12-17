@@ -31,6 +31,7 @@
 	flycheck flycheck-rtags
 	git-timemachine gitconfig-mode magit
 	google-c-style
+	groovy-mode
 	helm helm-gtags helm-rtags
 	markdown-mode
 	meghanada
