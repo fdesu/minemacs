@@ -12,4 +12,8 @@
 (load-file (concat (file-name-directory load-file-name)
 		   "built-in-configuration.el"))
 
+(setq custom-file (concat (file-name-directory load-file-name)
+		   "custom.el"))
+(load custom-file)
+
 ;;; init.el ends here
