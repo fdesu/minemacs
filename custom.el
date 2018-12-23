@@ -19,4 +19,7 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; custom cursor color => light sea green
+(set-cursor-color "#20b2aa")
+
 ;;; custom.el ends here
