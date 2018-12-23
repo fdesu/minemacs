@@ -14,5 +14,6 @@
 
 (electric-pair-mode t)
 (show-paren-mode 1)
+(linum-mode t)
 
 ;;; built-in-configuration.el ends here
