@@ -94,6 +94,10 @@
 ;(add-hook 'c++-mode-hook 'rtags-start-process-unless-running)
 ;(add-hook 'asm-mode-hook 'rtags-start-process-unless-running)
 
+;;;;;;; Modern C++ font-locking
+
+(require 'modern-cpp-font-lock)
+(add-hook 'c++-mode-hook #'modern-c++-font-lock-mode)
 
 ;;;;; Tabbar conifig
 
