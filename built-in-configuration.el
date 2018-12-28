@@ -14,6 +14,7 @@
 
 (electric-pair-mode t)
 (show-paren-mode 1)
-(linum-mode t)
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
 
 ;;; built-in-configuration.el ends here
