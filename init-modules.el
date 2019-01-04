@@ -15,6 +15,7 @@
 (add-to-list 'package-archives
 	     '( "gnu" . "https://elpa.gnu.org/packages/"))
 
+; below is automatically populated
 ; list the packages you want
 (setq package-list
     '(python-environment deferred epc 
@@ -24,6 +25,7 @@
         auto-complete popup let-alist magit git-rebase-mode 
         git-commit-mode minimap popup))
 
+; custom pckgs
 (setq package-list
       '(auto-complete
 	company company-c-headers company-quickhelp
@@ -35,6 +37,7 @@
 	helm helm-gtags helm-rtags
 	markdown-mode
 	meghanada
+	modern-cpp-font-lock
 	neotree
 	nyan-mode
 	paradox
