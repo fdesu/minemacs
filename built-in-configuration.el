@@ -26,4 +26,9 @@
 (global-set-key [s-up] 'windmove-up)
 (global-set-key [s-down] 'windmove-down)
 
+;;;;; Winner config
+
+(when (fboundp 'winner-mode)
+  (winner-mode 1))
+
 ;;; built-in-configuration.el ends here

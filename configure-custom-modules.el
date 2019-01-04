@@ -106,11 +106,6 @@
 (global-set-key (kbd "C-M-<") 'tabbar-backward-tab)
 (global-set-key (kbd "C-M->") 'tabbar-forward-tab)
 
-;;;;; Winner config
-
-(when (fboundp 'winner-mode)
-  (winner-mode 1))
-
 ;;;;; Dashboard config
 
 (require 'dashboard)
