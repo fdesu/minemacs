@@ -21,10 +21,14 @@
 ;; Windmove configuration ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(global-set-key [s-left] 'windmove-left)
-(global-set-key [s-right] 'windmove-right)
-(global-set-key [s-up] 'windmove-up)
-(global-set-key [s-down] 'windmove-down)
+; unset shift selection
+;(setq shift-select-mode nil)
+
+; define windmove keybindings
+(global-set-key (kbd "S-<left>") 'windmove-left)
+(global-set-key (kbd "S-<right>") 'windmove-right)
+(global-set-key (kbd "S-<up>") 'windmove-up)
+(global-set-key (kbd "S-<down>") 'windmove-down)
 
 ;;;;; Winner config
 
