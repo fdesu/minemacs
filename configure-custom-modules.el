@@ -10,8 +10,8 @@
 
 ;;;;; Enable Powerline
 
-(require 'powerline)
-(powerline-default-theme)
+;(require 'powerline)
+;(powerline-default-theme)
 
 ;;;;; Nyan Mode customization
 
@@ -101,10 +101,10 @@
 
 ;;;;; Tabbar conifig
 
-(require 'tabbar)
-(tabbar-mode 1)
-(global-set-key (kbd "C-M-<") 'tabbar-backward-tab)
-(global-set-key (kbd "C-M->") 'tabbar-forward-tab)
+;(require 'tabbar)
+;(tabbar-mode 1)
+;(global-set-key (kbd "C-M-<") 'tabbar-backward-tab)
+;(global-set-key (kbd "C-M->") 'tabbar-forward-tab)
 
 ;;;;; Dashboard config
 

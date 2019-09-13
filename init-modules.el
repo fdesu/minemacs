@@ -19,11 +19,10 @@
 ; list the packages you want
 (setq package-list
     '(python-environment deferred epc 
-        flycheck ctable jedi concurrent company cyberpunk-theme elpy 
+        flycheck ctable jedi concurrent company cyberpunk-theme 
         yasnippet pyvenv highlight-indentation find-file-in-project 
-        sql-indent sql exec-path-from-shell iedit
-        auto-complete popup let-alist magit git-rebase-mode 
-        git-commit-mode minimap popup))
+        sql exec-path-from-shell iedit
+        auto-complete popup let-alist magit popup))
 
 ; custom pckgs
 (setq package-list
@@ -40,11 +39,11 @@
 	modern-cpp-font-lock
 	neotree
 	nyan-mode
-	paradox
+;	paradox
 	pdf-tools
-	powerline
+;	powerline
 	projectile
-	tabbar
+;	tabbar
 	)
       )
 
